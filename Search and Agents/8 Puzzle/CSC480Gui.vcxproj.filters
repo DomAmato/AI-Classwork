@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUIUtils\src\ofxClipboard.cpp">
+      <Filter>addons\ofxUIUtils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUIUtils\src\ofxColorPicker.cpp">
+      <Filter>addons\ofxUIUtils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUIUtils\src\ofxDropDownMenu.cpp">
+      <Filter>addons\ofxUIUtils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUIUtils\src\ofxImgButton.cpp">
+      <Filter>addons\ofxUIUtils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUIUtils\src\ofxTextInputField.cpp">
+      <Filter>addons\ofxUIUtils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUIUtils\src\ofxUIButton.cpp">
+      <Filter>addons\ofxUIUtils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxUIUtils\src\ofxUISlider.cpp">
+      <Filter>addons\ofxUIUtils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Puzzle.cpp">
+      <Filter>src\Puzzle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Assignment1.cpp">
+      <Filter>src\Puzzle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxUIUtils">
+      <UniqueIdentifier>{3E53EA35-838B-2D4E-53B0-5EBC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxUIUtils\src">
+      <UniqueIdentifier>{DA8E9DF1-64BD-6852-C279-758D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Puzzle">
+      <UniqueIdentifier>{96fd299a-bc5f-4de3-95fb-2e7e37b04486}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUIUtils\src\ofxClipboard.h">
+      <Filter>addons\ofxUIUtils\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUIUtils\src\ofxColorPicker.h">
+      <Filter>addons\ofxUIUtils\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUIUtils\src\ofxDropDownMenu.h">
+      <Filter>addons\ofxUIUtils\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUIUtils\src\ofxImgButton.h">
+      <Filter>addons\ofxUIUtils\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUIUtils\src\ofxTextInputField.h">
+      <Filter>addons\ofxUIUtils\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUIUtils\src\ofxUIButton.h">
+      <Filter>addons\ofxUIUtils\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUIUtils\src\ofxUIFontRenderer.h">
+      <Filter>addons\ofxUIUtils\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUIUtils\src\ofxUISlider.h">
+      <Filter>addons\ofxUIUtils\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxUIUtils\src\ofxUIUtils.h">
+      <Filter>addons\ofxUIUtils\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Assignment1.h">
+      <Filter>src\Puzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Dependencies.h">
+      <Filter>src\Puzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Heuristics.h">
+      <Filter>src\Puzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Puzzle.h">
+      <Filter>src\Puzzle</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+</Project>
